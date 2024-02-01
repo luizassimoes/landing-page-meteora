@@ -1,7 +1,20 @@
+:root {
+    --my-green: #DAFF01;
+    --my-purple: #9353FF;
+}
+
 .texto-menor {
     font-size: 13px;
 }
 
 .divs-facilidades {
     width: 325px;
+}
+
+.my-green {
+    color: var(--my-green);
+}
+
+.bg-my-purple {
+    background-color: var(--my-purple);
 }
