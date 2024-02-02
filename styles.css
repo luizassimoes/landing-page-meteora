@@ -3,6 +3,14 @@
     --my-purple: #9353FF;
 }
 
+.my-green {
+    color: var(--my-green);
+}
+
+.bg-my-purple {
+    background-color: var(--my-purple);
+}
+
 .texto-menor {
     font-size: 13px;
 }
@@ -11,10 +19,14 @@
     width: 325px;
 }
 
-.my-green {
-    color: var(--my-green);
+.div-novidades {
+    width: 325px;
 }
 
-.bg-my-purple {
-    background-color: var(--my-purple);
+@media(min-width: 768px) {
+
+    .div-novidades {
+        width: 696px;
+    }
+
 }
